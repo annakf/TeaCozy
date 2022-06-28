@@ -1,0 +1,168 @@
+body{
+	font-family: Helvetica;
+	font-size: 22px;
+
+	color:  seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	padding: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	width:100%;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+
+	margin-left: auto;
+	position: fixed;
+	padding-bottom: 20px;
+	background-color: black;
+	opacity: 40%;
+	
+
+}
+.logo{
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 10px;
+	size: 50px;
+	float: left;
+	align: center
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+	float: right;
+
+
+}
+
+
+li{
+float: left;
+
+}
+
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+
+}
+
+
+.mission{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	justify-content: center;
+
+	background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 300px;
+	height: 700px;
+
+
+
+}
+
+.mission .container {
+	display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	background-color: black;
+}
+
+
+
+.featuredTea .container{
+
+display: inline-flex;
+	width: 1000px;
+	justify-content: center;
+
+}
+
+.featuredTea img {
+	width: 300px;
+	height: 200px;
+
+}
+figcaption{
+	padding: 10px;
+}
+
+.locations {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1md8w1f*_ga*Mzk5ODIwNzcuMTY1MjcxNDUyMQ..*_ga_3LRZM6TM9L*MTY1NDAwNzc2Ni4xNi4xLjE2NTQwMDkwMDkuNjA.");
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.locations .container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	height: 500px;
+
+
+}
+
+.downtown {
+	opacity: 1;
+	width: 300px;
+	height: 300px;
+	margin-left:40px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	padding: 15px;
+	background-color: black;
+}
+
+.bayside {
+	opacity: 1;
+	width: 300px;
+	height: 300px;
+	margin-left:40px;
+	margin-top: 15px;
+	padding: 15px;
+
+	background-color: black;
+}
+
+.oakdale {
+	opacity: 1;
+	width: 300px;
+	height: 300px;
+	margin-left:40px;
+	margin-top: 15px;
+
+	padding: 15px;
+	background-color: black;
+}
+
+.contact {
+	height: 200px;
+}
+
+footer{
+	text-align: left;
+	padding-right: 20px;
+}
